@@ -9,6 +9,9 @@
 
     <EditText
         android:id="@+id/target_number"
+        android:maxLength="2"
+        android:selectAllOnFocus="true"
+        android:importantForAutofill="no"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
@@ -28,7 +31,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:text="1" />
+        android:text="0"
+        tools:text="0" />
 
     <TextView
         android:id="@+id/result_text2"
@@ -39,16 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:text="1" />
-
-    <Button
-        android:id="@+id/roll_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/roll"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/result_text1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:text="0"
+        tools:text="0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
