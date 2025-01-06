@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Dice Roller</string>
     <string name="roll">Roll</string>
+    <string name="enter_target">Entrez un nombre à trouver</string>
+    <string name="invalid_number">Veuillez entrer un nombre entre 2 et 12</string>
 </resources>
